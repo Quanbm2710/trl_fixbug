@@ -66,10 +66,3 @@ python -m torch.distributed.launch --nproc_per_node=16 reward_summarization.py -
 ```
 
 
-
-# Thu vien phai cai them:
-```
-pip install sentencepiece
-pip install bitsandbytes
-pip install accelerate
-```

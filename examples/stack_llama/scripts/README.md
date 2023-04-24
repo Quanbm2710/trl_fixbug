@@ -15,3 +15,11 @@ python merge_peft_adapter.py --model_id=XXX --base_model_id=YYY --output_name=ZZ
 ```
 
 For access to the base llama-7b model, please see Meta's [release](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) and [request form](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform).
+
+
+# Additonal Lib:
+```
+pip install sentencepiece
+pip install bitsandbytes
+pip install accelerate
+```
